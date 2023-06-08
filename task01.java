@@ -35,8 +35,7 @@ public class task01 {
         // int n = (Integer.toBinaryString(i).length() - 1);
         public static int msb(int i) {
 
-        String bin = Integer.toBinaryString(i);
-        int n = (bin.length() - bin.indexOf("1") - 1);
+        int n = (Integer.toBinaryString(i).length() - 1);
         return n;            
         }
         
